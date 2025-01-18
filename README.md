@@ -28,6 +28,8 @@ In this Milestone we had dedicated the respective folders into our Backend folde
 
 Milestone 4: Project Overview 
 
+In this Milestone Firstly we installed multer and bcryptjs in our Backend folder and then we created an User model to design how the Data given by the users should look in the database to do this we first started to write the required code in user.js,multer.js and in app.js after this we get required result!!
+
 Milestone 5: Project Overview
 
 In this Milestone first we started off by adding a SignupPage and it's route then we written the code for the signup page in Signup.jsx in components and pages both the folders and we even updated the Routes.jsx and Validation.js and then again we checked out desired output using the command "npm run dev" and hence i got the desired output exactly 
