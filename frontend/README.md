@@ -55,3 +55,6 @@ Demonstrated the implementation of these features during a live coding session, 
 This milestone significantly enhances the application's security by protecting user credentials and laying a solid foundation for authentication and authorization in future milestones.
 
 
+Milestone 6: Project Overview
+
+In this milestone I created the login endpoint to authenticate users securely. This involved accepting user credentials (email/username and password) via a POST request and retrieving the corresponding user data from the database. I implemented password validation using bcrypt, comparing the entered password with the stored hashed password to ensure authentication. For successful logins, I generated a token (e.g., JWT) for session management. I also handled various error scenarios, such as invalid input, non-existent users, and incorrect passwords, returning appropriate HTTP status codes and messages. Finally, I thoroughly tested the endpoint to ensure its reliability and security.
