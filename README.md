@@ -62,3 +62,10 @@ In this milestone i created the login endpoint to authenticate users securely. T
 Milestone 8: Project Overview
 
 In this milestone i created a reusable Card Component that dynamically accepts props like product name, image, and price, allowing for modular and scalable design. The component is styled to display the details cleanly and intuitively. For the Homepage Layout, I designed a responsive grid layout (or used flexbox) to showcase multiple card components in an organized and visually appealing manner. This ensures a user-friendly interface, with proper spacing, alignment, and adaptability across different screen sizes. Both the card component and layout were tested for responsiveness and seamless integration.
+
+Milestone 9: Project Overview
+
+In this milestone, we created a frontend form for taking product input details and multiple images.
+
+- Created a form to input product details
+- Added functionality to upload multiple images
