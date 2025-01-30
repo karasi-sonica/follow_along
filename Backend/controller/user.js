@@ -113,4 +113,4 @@ router.post("/login", catchAsyncErrors(async (req, res, next) => {
     });
 }));
 
-module.exports = router;x
+module.exports = router;
