@@ -69,3 +69,13 @@ In this milestone, we created a frontend form for taking product input details a
 
 - Created a form to input product details
 - Added functionality to upload multiple images
+
+Milestone 12: Project Overview
+
+In this milestone, we focused on creating an endpoint to fetch and display products specific to a user based on their email, and rendering that data dynamically on the frontend.
+
+### Key Achievements:
+- *Endpoint for Product Retrieval*: Created an API endpoint to fetch all products associated with a user's email from MongoDB.
+- *Frontend Integration*: Wrote a function to send a request to the backend and receive the user-specific products data.
+- *Dynamic Data Rendering*: Displayed the retrieved products dynamically on the frontend using the product card component.
+- *Data Filtering*: Implemented filtering logic on the backend to ensure that only products tied to the authenticated user's email are sent to the client.
