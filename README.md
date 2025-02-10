@@ -79,3 +79,21 @@ In this milestone, we focused on creating an endpoint to fetch and display produ
 - *Frontend Integration*: Wrote a function to send a request to the backend and receive the user-specific products data.
 - *Dynamic Data Rendering*: Displayed the retrieved products dynamically on the frontend using the product card component.
 - *Data Filtering*: Implemented filtering logic on the backend to ensure that only products tied to the authenticated user's email are sent to the client.
+
+Milestone 15: Project Overview
+
+we created a responsive navigation bar (Navbar) that includes links to essential pages in our application:
+
+✅ Home – The main landing page.
+✅ My Products – Displays all products added by the user.
+✅ Add Product – A form to add new products.
+✅ Cart – Shows selected items for purchase.
+
+### Key Features Implemented:
+- *Responsive Design*:The Navbar adapts to different screen sizes using CSS media queries or flexbox/grid layout.
+A hamburger menu for smaller screens improves usability.
+
+- *Smooth Navigation*:We ensured smooth page transitions using React Router (if applicable) or regular navigation techniques.
+Each link is clearly labeled for easy access.
+
+- *Global Accessibility*:The Navbar component is added to all pages, making navigation consistent and user-friendly.
