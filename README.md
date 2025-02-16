@@ -70,6 +70,32 @@ In this milestone, we created a frontend form for taking product input details a
 - Created a form to input product details
 - Added functionality to upload multiple images
 
+Milestone 10: Project Overview
+
+This milestone focuses on building a product schema and creating a POST endpoint to validate and store product details in MongoDB using Mongoose.
+
+### Key Objectives:
+
+Product Schema:
+
+- Define the structure for product data, including fields like:
+- name (string, required)
+- description (string)
+- price (number, required)
+- imageUrl (string, URL format)
+- Ensure proper validation (e.g., required fields, correct data types).
+
+Endpoint Creation:
+
+Develop a POST API endpoint to receive product data.
+Validate the data before saving it to MongoDB.
+Store only valid product details in the database.
+Importance of Validation:
+
+Prevents inconsistent or incorrect data from being stored.
+Maintains data integrity and avoids database corruption.
+Reduces errors and unexpected behavior in applications.
+
 Milestone 12: Project Overview
 
 In this milestone, we focused on creating an endpoint to fetch and display products specific to a user based on their email, and rendering that data dynamically on the frontend.
