@@ -123,3 +123,15 @@ A hamburger menu for smaller screens improves usability.
 Each link is clearly labeled for easy access.
 
 - *Global Accessibility*:The Navbar component is added to all pages, making navigation consistent and user-friendly.
+
+Milestone 16: Project Overview
+
+In this milestone, we focused on creating a product info page that displays detailed product data, along with options to select the quantity and add the product to the cart.
+
+### Key Achievements:
+
+*Product Info Page*: Created a new page to display all relevant product details, such as name, description, and price.
+
+*Quantity Selection*: Implemented functionality to select the quantity of the product before adding it to the cart.
+
+*Add to Cart Button*: Added an "Add to Cart" button that allows users to add selected products to their cart.
