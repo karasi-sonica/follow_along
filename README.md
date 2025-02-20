@@ -96,6 +96,33 @@ Prevents inconsistent or incorrect data from being stored.
 Maintains data integrity and avoids database corruption.
 Reduces errors and unexpected behavior in applications.
 
+Milestone 11: Project Overview
+
+Objective:
+By the end of this milestone, you will understand how to send and receive data between the backend and frontend, and dynamically display it using components.
+
+Key Learning Points:
+Backend Development:
+
+Writing an endpoint to fetch product data from MongoDB.
+Sending the extracted data to the frontend.
+Frontend Implementation:
+
+Creating a function to receive product data from the backend.
+Displaying the received data dynamically using a previously created product card component.
+Steps to Complete Milestone 11:
+Create an API Endpoint (Backend):
+
+Write an endpoint that fetches all product data from MongoDB.
+Ensure proper data formatting before sending it to the frontend.
+Fetch Data in Frontend:
+
+Implement a function to request and retrieve product data from the backend.
+Dynamic Display of Data:
+
+Pass the retrieved data to the product card component.
+Render each product dynamically based on the received data.
+
 Milestone 12: Project Overview
 
 In this milestone, we focused on creating an endpoint to fetch and display products specific to a user based on their email, and rendering that data dynamically on the frontend.

@@ -13,7 +13,7 @@ const ProductDetails = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [quantity, setQuantity] = useState(1);
-    const email = "priya@gamil.com"
+    const email = "sonica@gamil.com"
 
     useEffect(() => {
         const fetchProduct = async () => {
