@@ -41,21 +41,21 @@ const productSchema = new mongoose.Schema(
         },
         cart: [
             {
-                productId: {
+                productid: {
                     type: String,
                     required: [true, "Please provide the product ID"],
-                    unique: true
+                    unique: true,
                 },
                 quantity: {
                     type: Number,
                     required: [true, "Please provide the quantity"],
-                    min: [0, "Quantity cannot be negative"]
+                    min: [0, "Quantity cannot be negative"],
                 },
             },
         ],
     },
     {
-        timestamps: true, 
+        timestamps: true,
     }
 );
 
